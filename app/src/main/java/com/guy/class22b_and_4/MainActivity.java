@@ -37,5 +37,14 @@ public class MainActivity extends AppCompatActivity {
                 .into(main_IMG_back2);
 
 
+        openCamera();
     }
+
+    private void openCamera() {
+        //
+        //
+        //
+    }
+
+
 }

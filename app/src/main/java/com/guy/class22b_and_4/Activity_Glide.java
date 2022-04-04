@@ -7,7 +7,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 
-public class MainActivity extends AppCompatActivity {
+public class Activity_Glide extends AppCompatActivity {
 
     private static final String LINK1 = "https://popmenucloud.com/cdn-cgi/image/width%3D3840%2Cheight%3D3840%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/kujhvwse/0b5a8372-9ace-4ed1-b74b-94197478996f.jpg";
     private static final String LINK2 = "https://veg-new.b-cdn.net/wp-content/uploads/dates-e1599424062845.jpg";
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_glide);
 
         main_IMG_back1 = findViewById(R.id.main_IMG_back1);
         main_IMG_back2 = findViewById(R.id.main_IMG_back2);
